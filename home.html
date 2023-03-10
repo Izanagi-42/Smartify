@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smartify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Tilt+Warp&family=Ubuntu:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,9 +24,13 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav
+      class="navbar navbar-expand-lg bg-dark"
+      data-bs-theme="dark"
+      style="padding: 13px"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Smartify</a>
+        <a class="navbar-brand" href="#"><img src="/Photos/Smartify.png" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,7 +40,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="bi bi-list"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -77,28 +91,26 @@
     </nav>
 
     <div
-      id="carouselExample"
+      id="carouselExampleInterval"
       class="carousel slide"
-      style="padding-bottom: 20px"
+      data-bs-ride="carousel"
+      style="margin-bottom: 30px"
     >
-      <div
-        class="carousel-inner"
-        style="height: auto; width: 100%; max-width: 1800px; align-self: center"
-      >
-        <div class="carousel-item active">
-          <img src="/pova 4 pro.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="/Photos/pova 4 pro.jpg" class="d-block w-100" alt="..." />
         </div>
-        <div class="carousel-item">
-          <img src="zero 5g.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="/Photos/zero 5g.jpg" class="d-block w-100" alt="..." />
         </div>
-        <div class="carousel-item">
-          <img src="hot 20s.jpeg" class="d-block w-100" alt="..." />
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="/Photos/hot 20s.jpeg" class="d-block w-100" alt="..." />
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExample"
+        data-bs-target="#carouselExampleInterval"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -107,169 +119,200 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExample"
+        data-bs-target="#carouselExampleInterval"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-sm-3 g-3">
       <div class="col">
-        <div class="card h-100">
+        <div class="card text-center">
           <img
-            src="pova 4 pro phone.jpg"
+            src="/Photos/pova 4 pro phone.jpg"
+            class="card-img-top"
+            alt="Tecno Pova 4 Pro Phone Image"
             style="
-              max-width: 165px;
               height: auto;
               width: 100%;
+              width: 165px;
               align-self: center;
               padding-top: 30px;
-              padding-bottom: 20px;
             "
-            class="card-img-top"
-            alt="..."
           />
           <div class="card-body">
-            <h5 class="card-title"><b>Tecno Pova 4 Pro</b></h5>
-            <p class="card-text">
-              TECNO POVA 4 Pro is the fourth incarnation of the budget-level
-              gaming smartphone from Tecno. It uses the new Helio G99 chipset
-              with 8GB of RAM and 256GB internal storage.
+            <h5
+              class="card-title"
+              style="font-family: tilt warp; font-size: 30px"
+            >
+              TECNO Pova 4 Pro
+            </h5>
+            <p class="card-text" style="font-family: Roboto Mono">
+              6.66 in 1080p AMOLED 90Hz<br />
+              Helio G99 Processor
             </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img
-            src="note 12 g96 phone.jpg"
-            style="
-              max-width: 165px;
-              height: auto;
-              width: 100%;
-              align-self: center;
-              padding-top: 30px;
-              padding-bottom: 20px;
-            "
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title"><b>Infinix Note 12 G96</b></h5>
-            <p class="card-text">
-              The Infinix Note 12 G96 is a budget gaming smartphone powered by a
-              MediaTek Helio G96 chipset.
-            </p>
+            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+              >Show Full Specs</a
+            >
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card text-center">
           <img
-            src="hot 20s phone.jpg"
+            src="/Photos/poco m5s phone.jpg"
+            class="card-img-top"
+            alt="POCO M5s Phone Image"
             style="
-              max-width: 165px;
               height: auto;
               width: 100%;
+              width: 165px;
               align-self: center;
               padding-top: 30px;
-              padding-bottom: 20px;
             "
-            class="card-img-top"
-            alt="..."
           />
           <div class="card-body">
-            <h5 class="card-title"><b>Infinix Hot 20S</b></h5>
-            <p class="card-text">
-              The Infinix Hot 20S is a mid-range offering from Infinix under
-              their Hot 20 Series category. It has a 6.78-inch IPS LCD display
-              with a speedy 120Hz refresh rate on the bat.
+            <h5
+              class="card-title"
+              style="font-family: tilt warp; font-size: 30px"
+            >
+              POCO M5s
+            </h5>
+            <p class="card-text" style="font-family: Roboto Mono">
+              6.58 in 1080P AMOLED 90Hz<br />
+              Helio G95 Processor
             </p>
+            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+              >Show Full Specs</a
+            >
           </div>
         </div>
       </div>
-      <div class="col" style="padding-bottom: 30px">
-        <div class="card h-100">
+      <div class="col">
+        <div class="card text-center">
           <img
-            src="narzo 50 phone.jpg"
+            src="/Photos/note 12 g96 phone.jpg"
+            class="card-img-top"
+            alt="Infinix Note 12 G96 Phone Image"
             style="
-              max-width: 165px;
               height: auto;
               width: 100%;
+              width: 165px;
               align-self: center;
               padding-top: 30px;
-              padding-bottom: 20px;
             "
-            class="card-img-top"
-            alt="..."
           />
           <div class="card-body">
-            <h5 class="card-title"><b>Realme Narzo 50</b></h5>
-            <p class="card-text">
-              The realme narzo 50 is a budget gaming smartphone featuring a
-              6.6-inch FHD+ display, triple rear cameras measuring 50MP + 2MP +
-              2MP, and a single selfie camera measuring 16MP.
+            <h5
+              class="card-title"
+              style="font-family: tilt warp; font-size: 30px"
+            >
+              INFINIX Note 12 G96
+            </h5>
+            <p class="card-text" style="font-family: Roboto Mono">
+              6.7 in 1080p AMOLED 60hz<br />
+              Helio G96 Processor
             </p>
+            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+              >Show Full Specs</a
+            >
           </div>
         </div>
       </div>
-      <div class="col" style="padding-bottom: 30px">
-        <div class="card h-100">
+      <div class="col">
+        <div class="card text-center">
           <img
-            src="poco m5 phone.jpg"
-            style="
-              max-width: 165px;
-              height: auto;
-              width: 100%;
-              align-self: center;
-              padding-top: 30px;
-              padding-bottom: 20px;
-            "
+            src="/Photos/pova 4 phone.jpg"
             class="card-img-top"
             alt="..."
+            style="
+              height: auto;
+              width: 100%;
+              width: 165px;
+              align-self: center;
+              padding-top: 30px;
+            "
           />
           <div class="card-body">
-            <h5 class="card-title"><b>POCO M5</b></h5>
-            <p class="card-text">
-              The POCO M5 is the successor to the POCO M4 and is now packing the
-              brand new Mediatek Helio G99 Processor.
+            <h5
+              class="card-title"
+              style="font-family: tilt warp; font-size: 30px"
+            >
+              TECNO Pova 4
+            </h5>
+            <p class="card-text" style="font-family: Roboto Mono">
+              6.82 in 720p IPS LCD 90Hz<br />
+              Helio G99 Processor
             </p>
+            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+              >Show Full Specs</a
+            >
           </div>
         </div>
       </div>
-      <div class="col" style="padding-bottom: 30px">
-        <div class="card h-100">
+      <div class="col">
+        <div class="card text-center">
           <img
-            src="redmi note 11 pro.jpg"
-            style="
-              max-width: 165px;
-              height: auto;
-              width: 100%;
-              align-self: center;
-              padding-top: 30px;
-              padding-bottom: 20px;
-            "
+            src="/Photos/poco m5 phone.jpg"
             class="card-img-top"
             alt="..."
+            style="
+              height: auto;
+              width: 100%;
+              width: 165px;
+              align-self: center;
+              padding-top: 30px;
+            "
           />
           <div class="card-body">
-            <h5 class="card-title"><b>Xiaomi Redmi Note 11</b></h5>
-            <p class="card-text">
-              The Xiaomi Redmi Note 11 is the successor to the highly-successful
-              releases: Redmi Note 10 and Redmi Note 10 Pro. This time, the
-              company equipped the unit with an energy-efficient 6nm Qualcomm
-              Snapdragon chipset, as well as a 90Hz AMOLED panel perfect for
-              viewing all types of media.
-            </p>
+            <h5
+              class="card-title"
+              style="font-family: tilt warp; font-size: 30px"
+            >
+              POCO M5
+            </h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+              >Show Full Specs</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center">
+          <img
+            src="/Photos/hot 20s phone.jpg"
+            class="card-img-top"
+            alt="..."
+            style="
+              height: auto;
+              width: 100%;
+              width: 165px;
+              align-self: center;
+              padding-top: 30px;
+            "
+          />
+          <div class="card-body">
+            <h5
+              class="card-title"
+              style="font-family: tilt warp; font-size: 30px"
+            >
+              INFINIX Hot 20S
+            </h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+              >Show Full Specs</a
+            >
           </div>
         </div>
       </div>
     </div>
+
     <!-- Footer -->
     <footer
       class="text-center text-lg-start text-white"
-      style="background-color: #1c2331"
+      style="background-color: #1c2331; margin-top: 30px"
     >
       <!-- Section: Social media -->
       <section
@@ -284,11 +327,14 @@
 
         <!-- Right -->
         <div>
-          <a href="" class="text-white me-4">
-            <span class="fab fa-facebook-f"></span>
+          <a href="">
+            <img
+              src="/Photos/fb icon.png"
+              style="max-width: 30px; height: auto; width: 100%"
+            />
           </a>
           <a href="" class="text-white me-4">
-            <i class="fab fa-twitter"></i>
+            <i class="bi bi-twitter"></i>
           </a>
           <a href="" class="text-white me-4">
             <i class="fab fa-google"></i>
@@ -397,9 +443,7 @@
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/"
-          >MDBootstrap.com</a
-        >
+        <a class="text-white" href="https://mdbootstrap.com/">Smartify.com</a>
       </div>
       <!-- Copyright -->
     </footer>
