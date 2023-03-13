@@ -3,6 +3,9 @@
   font-size: 23px;
   font-weight: bold;
 }
+.nav-items {
+  margin-left: 130px;
+}
 .phone-image {
   height: auto;
   width: 100%;
