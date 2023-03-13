@@ -1,0 +1,26 @@
+.phone-image {
+  height: auto;
+  width: 100%;
+  width: 105px;
+  align-self: center;
+  padding-top: 30px;
+}
+.show-specs-button {
+  font-family: ubuntu;
+  font-size: 13px;
+  height: auto;
+  width: 125px;
+  margin-top: -5px;
+}
+.phone-model {
+  font-family: tilt warp;
+  font-size: 20px;
+}
+.card-size {
+  height: auto;
+  width: 300px;
+}
+.phone-specs-text {
+  font-family: Roboto Mono;
+  font-size: 12px;
+}

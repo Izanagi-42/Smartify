@@ -22,20 +22,20 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/home style.css" />
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img
+        <a
+          class="navbar-brand"
+          href="#"
+          style="margin-left: 10px; margin-right: 165px"
+        >
+          <img
             src="/Photos/latter logo.jpg"
-            style="
-              height: auto;
-              width: 100%;
-              max-width: 120px;
-              margin-left: 20px;
-            "
+            style="height: auto; width: 100%; max-width: 120px"
         /></a>
         <button
           class="navbar-toggler"
@@ -51,10 +51,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="font-family: DINProRegular"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#" style="margin-left: 30px">Link</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -63,6 +69,7 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style="margin-left: 30px"
               >
                 Dropdown
               </a>
@@ -78,7 +85,9 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link disabled" style="margin-left: 30px"
+                >Disabled</a
+              >
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -89,7 +98,7 @@
               aria-label="Search"
               style="height: 30px; width: 100px"
             />
-            <button class="btn btn-outline-success" type="submit" style="">
+            <button class="btn btn-outline-success" type="submit">
               Search
             </button>
           </form>
@@ -135,186 +144,114 @@
     </div>
     <div class="row row-cols-1 row-cols-sm-3 g-3">
       <div class="col">
-        <div class="card text-center border-primary mb-3">
+        <div class="card text-center border-primary mb-3 card-size">
           <img
             src="/Photos/pova 4 pro phone.jpg"
-            class="card-img-top"
+            class="card-img-top phone-image"
             alt="Tecno Pova 4 Pro Phone Image"
-            style="
-              height: auto;
-              width: 100%;
-              width: 165px;
-              align-self: center;
-              padding-top: 30px;
-            "
           />
           <div class="card-body">
-            <h5
-              class="card-title"
-              style="font-family: tilt warp; font-size: 30px"
-            >
-              TECNO Pova 4 Pro
-            </h5>
-            <p class="card-text" style="font-family: Roboto Mono">
+            <h5 class="card-title phone-model">TECNO Pova 4 Pro</h5>
+            <p class="card-text phone-specs-text">
               6.66 in 1080p AMOLED 90Hz<br />
               MediaTek Helio G99 Processor
             </p>
-            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+            <a href="#" class="btn btn-primary show-specs-button"
               >Show Full Specs</a
             >
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card text-center border-primary mb-3">
+        <div class="card text-center border-primary mb-3 card-size">
           <img
             src="/Photos/poco m5s phone.jpg"
-            class="card-img-top"
+            class="card-img-top phone-image"
             alt="POCO M5s Phone Image"
-            style="
-              height: auto;
-              width: 100%;
-              width: 165px;
-              align-self: center;
-              padding-top: 30px;
-            "
           />
           <div class="card-body">
-            <h5
-              class="card-title"
-              style="font-family: tilt warp; font-size: 30px"
-            >
-              POCO M5s
-            </h5>
-            <p class="card-text" style="font-family: Roboto Mono">
+            <h5 class="card-title phone-model">POCO M5s</h5>
+            <p class="card-text phone-specs-text">
               6.58 in 1080P AMOLED 90Hz<br />
               MediaTek Helio G95 Processor
             </p>
-            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+            <a href="#" class="btn btn-primary show-specs-button"
               >Show Full Specs</a
             >
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card text-center border-primary mb-3">
+        <div class="card text-center border-primary mb-3 card-size">
           <img
             src="/Photos/note 12 g96 phone.jpg"
-            class="card-img-top"
+            class="card-img-top phone-image"
             alt="Infinix Note 12 G96 Phone Image"
-            style="
-              height: auto;
-              width: 100%;
-              width: 165px;
-              align-self: center;
-              padding-top: 30px;
-            "
           />
           <div class="card-body">
-            <h5
-              class="card-title"
-              style="font-family: tilt warp; font-size: 30px"
-            >
-              INFINIX Note 12 G96
-            </h5>
-            <p class="card-text" style="font-family: Roboto Mono">
+            <h5 class="card-title phone-model">INFINIX Note 12 G96</h5>
+            <p class="card-text phone-specs-text">
               6.7 in 1080p AMOLED 60hz<br />
               MediaTek Helio G96 Processor
             </p>
-            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+            <a href="#" class="btn btn-primary show-specs-button"
               >Show Full Specs</a
             >
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card text-center border-primary mb-3">
+        <div class="card text-center border-primary mb-3 card-size">
           <img
             src="/Photos/pova 4 phone.jpg"
-            class="card-img-top"
+            class="card-img-top phone-image"
             alt="..."
-            style="
-              height: auto;
-              width: 100%;
-              width: 165px;
-              align-self: center;
-              padding-top: 30px;
-            "
           />
           <div class="card-body">
-            <h5
-              class="card-title"
-              style="font-family: tilt warp; font-size: 30px"
-            >
-              TECNO Pova 4
-            </h5>
-            <p class="card-text" style="font-family: Roboto Mono">
+            <h5 class="card-title phone-model">TECNO Pova 4</h5>
+            <p class="card-text phone-specs-text">
               6.82 in 720p IPS LCD 90Hz<br />
               MediaTek Helio G99 Processor
             </p>
-            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+            <a href="#" class="btn btn-primary show-specs-button"
               >Show Full Specs</a
             >
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card text-center border-primary mb-3">
+        <div class="card text-center border-primary mb-3 card-size">
           <img
             src="/Photos/poco m5 phone.jpg"
-            class="card-img-top"
+            class="card-img-top phone-image"
             alt="..."
-            style="
-              height: auto;
-              width: 100%;
-              width: 165px;
-              align-self: center;
-              padding-top: 30px;
-            "
           />
           <div class="card-body">
-            <h5
-              class="card-title"
-              style="font-family: tilt warp; font-size: 30px"
-            >
-              POCO M5
-            </h5>
-            <p class="card-text" style="font-family: Roboto Mono">
+            <h5 class="card-title phone-model">POCO M5</h5>
+            <p class="card-text phone-specs-text">
               6.8 in 1080p IPS LCD 90hz<br />
               MediaTek Helio G99 Processor
             </p>
-            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+            <a href="#" class="btn btn-primary show-specs-button"
               >Show Full Specs</a
             >
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card text-center border-primary mb-3">
+        <div class="card text-center border-primary mb-3 card-size">
           <img
             src="/Photos/hot 20s phone.jpg"
-            class="card-img-top"
+            class="card-img-top phone-image"
             alt="..."
-            style="
-              height: auto;
-              width: 100%;
-              width: 165px;
-              align-self: center;
-              padding-top: 30px;
-            "
           />
           <div class="card-body">
-            <h5
-              class="card-title"
-              style="font-family: tilt warp; font-size: 30px"
-            >
-              INFINIX Hot 20S
-            </h5>
-            <p class="card-text" style="font-family: Roboto Mono">
+            <h5 class="card-title phone-model">INFINIX Hot 20S</h5>
+            <p class="card-text phone-specs-text">
               6.78 in 1080p IPS LCD 120Hz<br />
               MediaTek Helio G96 Processor
             </p>
-            <a href="#" class="btn btn-primary" style="font-family: ubuntu"
+            <a href="#" class="btn btn-primary show-specs-button"
               >Show Full Specs</a
             >
           </div>
