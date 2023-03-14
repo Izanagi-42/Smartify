@@ -41,7 +41,12 @@
         >
           <img
             src="/Photos/latter logo.jpg"
-            style="height: auto; width: 100%; max-width: 150px"
+            style="
+              height: auto;
+              width: 100%;
+              max-width: 150px;
+              margin-right: 10px;
+            "
         /></a>
         <button
           class="navbar-toggler"
@@ -60,7 +65,10 @@
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active nav-font" aria-current="page" href="#"
+              <a
+                class="nav-link active nav-font"
+                aria-current="page"
+                href="/home.html"
                 >Home</a
               >
             </li>
@@ -135,7 +143,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div class="row row-cols-1 row-cols-sm-3 g-3">
+    <div class="row row-cols-2 row-cols-sm-3 g-3">
       <div class="col">
         <div class="card text-center border-primary mb-3 card-size">
           <img
@@ -149,9 +157,52 @@
               6.66 in 1080p AMOLED 90Hz<br />
               MediaTek Helio G99 Processor
             </p>
-            <a href="#" class="btn btn-primary show-specs-button"
-              >Show Full Specs</a
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#pova4proModal"
             >
+              Learn more
+            </button>
+            <div
+              class="modal fade"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              id="pova4proModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+              >
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Tecno Pova 4 Pro
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="/Photos/pova 4 pro phone.jpg"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

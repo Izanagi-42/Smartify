@@ -9,11 +9,13 @@
 .phone-image {
   height: auto;
   width: 100%;
-  width: 105px;
+  max-width: 105px;
   align-self: center;
   padding-top: 30px;
 }
 .show-specs-button {
+  border-width: 2px;
+  border-radius: 60px;
   font-family: ubuntu;
   font-size: 13px;
   height: auto;
@@ -28,7 +30,8 @@
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: 280px;
+  width: auto;
+  max-width: 280px;
   border-radius: 30px;
   border-width: 3px;
 }
