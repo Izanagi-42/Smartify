@@ -24,9 +24,39 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.cards-header-tagline {
-  font-family: League Spartan;
-  font-size: 3.5vw;
+@media (max-width: 420px) {
+  .cards-header-tagline {
+    font-family: League Spartan;
+    font-size: 28px;
+  }
+  .top-sell-text {
+    background-color: rgba(13, 55, 119, 0.574);
+    border: none;
+    border-width: 2px;
+    border-radius: 60px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 421px) {
+  .cards-header-tagline {
+    font-family: League Spartan;
+    font-size: 45px;
+  }
+  .top-sell-text {
+    background-color: rgba(13, 55, 119, 0.574);
+    border: none;
+    border-width: 2px;
+    border-radius: 60px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 hr {
   border: 2px solid white;
@@ -34,16 +64,7 @@ hr {
   margin-top: -10px;
   opacity: 1;
 }
-.top-sell-text {
-  background-color: rgba(13, 55, 119, 0.574);
-  border: none;
-  border-width: 2px;
-  border-radius: 60px;
-  width: 320px;
-  height: 55px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 .phone-image {
   height: auto;
   width: 100%;
