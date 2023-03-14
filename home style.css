@@ -127,6 +127,11 @@ hr {
   font-size: 13px;
 }
 
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: black;
+}
+
 .body-pad {
   padding-left: 0px;
   padding-right: 0px;
