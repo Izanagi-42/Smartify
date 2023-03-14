@@ -34,19 +34,8 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
       <div class="container-fluid">
-        <a
-          class="navbar-brand"
-          href="#"
-          style="margin-left: 10px; margin-right: 165px"
-        >
-          <img
-            src="/Photos/latter logo.jpg"
-            style="
-              height: auto;
-              width: 100%;
-              max-width: 150px;
-              margin-right: 10px;
-            "
+        <a class="navbar-brand nav-logo-container" href="#">
+          <img src="/Photos/latter logo.jpg" class="nav-logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -63,34 +52,30 @@
           class="collapse navbar-collapse nav-items"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link active nav-font"
-                aria-current="page"
-                href="/home.html"
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-link-container">
+            <li class="nav-item nav-font nav-link-style">
+              <a class="nav-link active" aria-current="page" href="/home.html"
                 >Home</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-font" href="#" style="margin-left: 30px"
-                >Phones</a
-              >
+            <li class="nav-item nav-font nav-link-style">
+              <a class="nav-link" href="#">Phones</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown nav-font nav-link-style">
               <a
-                class="nav-link dropdown-toggle nav-font"
+                class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                style="margin-left: 30px"
               >
                 Tier List
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Budget Phones</a></li>
-                <li><a class="dropdown-item" href="#">Mid Range Phones</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Mid Range Phones</a>
+                </li>
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
@@ -99,14 +84,10 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item nav-font">
-              <a class="nav-link" style="margin-left: 30px">About Us</a>
+            <li class="nav-item nav-font nav-link-style">
+              <a class="nav-link">About Us</a>
             </li>
           </ul>
-          <img
-            src="/Photos/search icon.webp"
-            style="height: 20px; margin-right: 20px; height: auto; width: 30px"
-          />
         </div>
       </div>
     </nav>
@@ -188,7 +169,7 @@
               data-bs-keyboard="false"
               id="pova4proModal"
               tabindex="-1"
-              aria-labelledby="exampleModalLabel"
+              aria-labelledby="pova4proLabel"
               aria-hidden="true"
             >
               <div
@@ -196,7 +177,7 @@
               >
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
+                    <h5 class="modal-title" id="pova4proLabel">
                       Tecno Pova 4 Pro
                     </h5>
                     <button
@@ -208,9 +189,10 @@
                   </div>
                   <div class="modal-body">
                     <img
-                      src="/Photos/pova 4 pro phone.jpg"
+                      src="/Photos/pova-4-pro-phone.png"
                       class="img-fluid"
                       alt="..."
+                      style="margin-bottom: 30px"
                     />
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                       <div class="accordion-item">
@@ -226,7 +208,7 @@
                             aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne"
                           >
-                            Accordion Item #1
+                            Processor
                           </button>
                         </h2>
                         <div
@@ -250,7 +232,7 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo"
                           >
-                            Accordion Item #2
+                            Display
                           </button>
                         </h2>
                         <div
@@ -274,13 +256,253 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree"
                           >
-                            Accordion Item #3
+                            Storage & RAM
                           </button>
                         </h2>
                         <div
                           id="panelsStayOpen-collapseThree"
                           class="accordion-collapse collapse"
                           aria-labelledby="panelsStayOpen-headingThree"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFour"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour"
+                          >
+                            Camera
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFour"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFour"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFive"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive"
+                          >
+                            Audio
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFive"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFive"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSix"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix"
+                          >
+                            Battery & Charging
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSix"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSix"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSeven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven"
+                          >
+                            Cellular & Wireless
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSeven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSeven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEight"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight"
+                          >
+                            Size & Weight
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEight"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEight"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingNine"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseNine"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseNine"
+                          >
+                            Material
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseNine"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingNine"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTen"
+                          >
+                            Sensors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTen"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEleven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEleven"
+                          >
+                            Operating System
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEleven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEleven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTwelve"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwelve"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwelve"
+                          >
+                            Colors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTwelve"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTwelve"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingThirteen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThirteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThirteen"
+                          >
+                            Price
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseThirteen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingThirteen"
                         >
                           <div class="accordion-body"></div>
                         </div>
@@ -310,7 +532,7 @@
               type="button"
               class="btn btn-outline-primary"
               data-bs-toggle="modal"
-              data-bs-target="#pova4proModal"
+              data-bs-target="#pocom5sModal"
             >
               Learn more
             </button>
@@ -318,9 +540,9 @@
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              id="pova4proModal"
+              id="pocom5sModal"
               tabindex="-1"
-              aria-labelledby="exampleModalLabel"
+              aria-labelledby="pocom5sLabel"
               aria-hidden="true"
             >
               <div
@@ -328,9 +550,7 @@
               >
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                      Tecno Pova 4 Pro
-                    </h5>
+                    <h5 class="modal-title" id="pocom5sLabel">POCO M5s</h5>
                     <button
                       type="button"
                       class="btn-close"
@@ -340,9 +560,10 @@
                   </div>
                   <div class="modal-body">
                     <img
-                      src="/Photos/pova 4 pro phone.jpg"
+                      src="/Photos/poco-m5s-phone.png"
                       class="img-fluid"
                       alt="..."
+                      style="margin-bottom: 30px"
                     />
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                       <div class="accordion-item">
@@ -358,7 +579,7 @@
                             aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne"
                           >
-                            Accordion Item #1
+                            Processor
                           </button>
                         </h2>
                         <div
@@ -382,7 +603,7 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo"
                           >
-                            Accordion Item #2
+                            Display
                           </button>
                         </h2>
                         <div
@@ -406,13 +627,253 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree"
                           >
-                            Accordion Item #3
+                            Storage & RAM
                           </button>
                         </h2>
                         <div
                           id="panelsStayOpen-collapseThree"
                           class="accordion-collapse collapse"
                           aria-labelledby="panelsStayOpen-headingThree"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFour"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour"
+                          >
+                            Camera
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFour"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFour"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFive"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive"
+                          >
+                            Audio
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFive"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFive"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSix"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix"
+                          >
+                            Battery & Charging
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSix"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSix"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSeven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven"
+                          >
+                            Cellular & Wireless
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSeven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSeven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEight"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight"
+                          >
+                            Size & Weight
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEight"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEight"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingNine"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseNine"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseNine"
+                          >
+                            Material
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseNine"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingNine"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTen"
+                          >
+                            Sensors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTen"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEleven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEleven"
+                          >
+                            Operating System
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEleven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEleven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTwelve"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwelve"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwelve"
+                          >
+                            Colors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTwelve"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTwelve"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingThirteen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThirteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThirteen"
+                          >
+                            Price
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseThirteen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingThirteen"
                         >
                           <div class="accordion-body"></div>
                         </div>
@@ -442,7 +903,7 @@
               type="button"
               class="btn btn-outline-primary"
               data-bs-toggle="modal"
-              data-bs-target="#pova4proModal"
+              data-bs-target="#note12Modal"
             >
               Learn more
             </button>
@@ -450,9 +911,9 @@
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              id="pova4proModal"
+              id="note12Modal"
               tabindex="-1"
-              aria-labelledby="exampleModalLabel"
+              aria-labelledby="note12Label"
               aria-hidden="true"
             >
               <div
@@ -460,8 +921,8 @@
               >
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                      Tecno Pova 4 Pro
+                    <h5 class="modal-title" id="note12Label">
+                      Infinix Note 12 G96
                     </h5>
                     <button
                       type="button"
@@ -472,9 +933,10 @@
                   </div>
                   <div class="modal-body">
                     <img
-                      src="/Photos/pova 4 pro phone.jpg"
+                      src="/Photos/note-12-g96-phone.png"
                       class="img-fluid"
                       alt="..."
+                      style="margin-bottom: 30px"
                     />
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                       <div class="accordion-item">
@@ -490,7 +952,7 @@
                             aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne"
                           >
-                            Accordion Item #1
+                            Processor
                           </button>
                         </h2>
                         <div
@@ -514,7 +976,7 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo"
                           >
-                            Accordion Item #2
+                            Display
                           </button>
                         </h2>
                         <div
@@ -538,13 +1000,253 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree"
                           >
-                            Accordion Item #3
+                            Storage & RAM
                           </button>
                         </h2>
                         <div
                           id="panelsStayOpen-collapseThree"
                           class="accordion-collapse collapse"
                           aria-labelledby="panelsStayOpen-headingThree"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFour"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour"
+                          >
+                            Camera
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFour"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFour"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFive"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive"
+                          >
+                            Audio
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFive"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFive"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSix"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix"
+                          >
+                            Battery & Charging
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSix"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSix"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSeven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven"
+                          >
+                            Cellular & Wireless
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSeven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSeven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEight"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight"
+                          >
+                            Size & Weight
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEight"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEight"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingNine"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseNine"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseNine"
+                          >
+                            Material
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseNine"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingNine"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTen"
+                          >
+                            Sensors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTen"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEleven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEleven"
+                          >
+                            Operating System
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEleven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEleven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTwelve"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwelve"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwelve"
+                          >
+                            Colors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTwelve"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTwelve"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingThirteen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThirteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThirteen"
+                          >
+                            Price
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseThirteen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingThirteen"
                         >
                           <div class="accordion-body"></div>
                         </div>
@@ -574,7 +1276,7 @@
               type="button"
               class="btn btn-outline-primary"
               data-bs-toggle="modal"
-              data-bs-target="#pova4proModal"
+              data-bs-target="#pova4Modal"
             >
               Learn more
             </button>
@@ -582,9 +1284,9 @@
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              id="pova4proModal"
+              id="pova4Modal"
               tabindex="-1"
-              aria-labelledby="exampleModalLabel"
+              aria-labelledby="pova4Label"
               aria-hidden="true"
             >
               <div
@@ -592,9 +1294,7 @@
               >
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                      Tecno Pova 4 Pro
-                    </h5>
+                    <h5 class="modal-title" id="pova4Label">Tecno Pova 4</h5>
                     <button
                       type="button"
                       class="btn-close"
@@ -604,9 +1304,10 @@
                   </div>
                   <div class="modal-body">
                     <img
-                      src="/Photos/pova 4 pro phone.jpg"
+                      src="/Photos/pova-4-phone.png"
                       class="img-fluid"
                       alt="..."
+                      style="margin-bottom: 30px"
                     />
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                       <div class="accordion-item">
@@ -622,7 +1323,7 @@
                             aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne"
                           >
-                            Accordion Item #1
+                            Processor
                           </button>
                         </h2>
                         <div
@@ -646,7 +1347,7 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo"
                           >
-                            Accordion Item #2
+                            Display
                           </button>
                         </h2>
                         <div
@@ -670,13 +1371,253 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree"
                           >
-                            Accordion Item #3
+                            Storage & RAM
                           </button>
                         </h2>
                         <div
                           id="panelsStayOpen-collapseThree"
                           class="accordion-collapse collapse"
                           aria-labelledby="panelsStayOpen-headingThree"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFour"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour"
+                          >
+                            Camera
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFour"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFour"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFive"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive"
+                          >
+                            Audio
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFive"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFive"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSix"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix"
+                          >
+                            Battery & Charging
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSix"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSix"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSeven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven"
+                          >
+                            Cellular & Wireless
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSeven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSeven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEight"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight"
+                          >
+                            Size & Weight
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEight"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEight"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingNine"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseNine"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseNine"
+                          >
+                            Material
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseNine"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingNine"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTen"
+                          >
+                            Sensors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTen"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEleven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEleven"
+                          >
+                            Operating System
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEleven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEleven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTwelve"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwelve"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwelve"
+                          >
+                            Colors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTwelve"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTwelve"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingThirteen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThirteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThirteen"
+                          >
+                            Price
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseThirteen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingThirteen"
                         >
                           <div class="accordion-body"></div>
                         </div>
@@ -706,7 +1647,7 @@
               type="button"
               class="btn btn-outline-primary"
               data-bs-toggle="modal"
-              data-bs-target="#pova4proModal"
+              data-bs-target="#pocom5Modal"
             >
               Learn more
             </button>
@@ -714,9 +1655,9 @@
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              id="pova4proModal"
+              id="pocom5Modal"
               tabindex="-1"
-              aria-labelledby="exampleModalLabel"
+              aria-labelledby="pocom5Label"
               aria-hidden="true"
             >
               <div
@@ -724,9 +1665,7 @@
               >
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                      Tecno Pova 4 Pro
-                    </h5>
+                    <h5 class="modal-title" id="pocom5Label">Poco M5</h5>
                     <button
                       type="button"
                       class="btn-close"
@@ -736,9 +1675,10 @@
                   </div>
                   <div class="modal-body">
                     <img
-                      src="/Photos/pova 4 pro phone.jpg"
+                      src="/Photos/poco-m5-phone.png"
                       class="img-fluid"
                       alt="..."
+                      style="margin-bottom: 30px"
                     />
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                       <div class="accordion-item">
@@ -754,7 +1694,7 @@
                             aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne"
                           >
-                            Accordion Item #1
+                            Processor
                           </button>
                         </h2>
                         <div
@@ -778,7 +1718,7 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo"
                           >
-                            Accordion Item #2
+                            Display
                           </button>
                         </h2>
                         <div
@@ -802,13 +1742,253 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree"
                           >
-                            Accordion Item #3
+                            Storage & RAM
                           </button>
                         </h2>
                         <div
                           id="panelsStayOpen-collapseThree"
                           class="accordion-collapse collapse"
                           aria-labelledby="panelsStayOpen-headingThree"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFour"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour"
+                          >
+                            Camera
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFour"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFour"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFive"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive"
+                          >
+                            Audio
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFive"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFive"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSix"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix"
+                          >
+                            Battery & Charging
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSix"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSix"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSeven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven"
+                          >
+                            Cellular & Wireless
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSeven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSeven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEight"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight"
+                          >
+                            Size & Weight
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEight"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEight"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingNine"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseNine"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseNine"
+                          >
+                            Material
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseNine"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingNine"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTen"
+                          >
+                            Sensors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTen"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEleven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEleven"
+                          >
+                            Operating System
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEleven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEleven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTwelve"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwelve"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwelve"
+                          >
+                            Colors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTwelve"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTwelve"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingThirteen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThirteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThirteen"
+                          >
+                            Price
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseThirteen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingThirteen"
                         >
                           <div class="accordion-body"></div>
                         </div>
@@ -827,6 +2007,7 @@
             src="/Photos/hot-20s-phone.png"
             class="card-img-top phone-image"
             alt="..."
+            style="margin-bottom: 30px"
           />
           <div class="card-body body-pad">
             <h5 class="card-title phone-model">INFINIX Hot 20S</h5>
@@ -838,7 +2019,7 @@
               type="button"
               class="btn btn-outline-primary"
               data-bs-toggle="modal"
-              data-bs-target="#pova4proModal"
+              data-bs-target="#hot20sModal"
             >
               Learn more
             </button>
@@ -846,9 +2027,9 @@
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              id="pova4proModal"
+              id="hot20sModal"
               tabindex="-1"
-              aria-labelledby="exampleModalLabel"
+              aria-labelledby="hot20sLabel"
               aria-hidden="true"
             >
               <div
@@ -856,8 +2037,8 @@
               >
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                      Tecno Pova 4 Pro
+                    <h5 class="modal-title" id="hot20sLabel">
+                      Infinix Hot 20S
                     </h5>
                     <button
                       type="button"
@@ -868,7 +2049,7 @@
                   </div>
                   <div class="modal-body">
                     <img
-                      src="/Photos/pova 4 pro phone.jpg"
+                      src="/Photos/hot-20s-phone.png"
                       class="img-fluid"
                       alt="..."
                     />
@@ -886,7 +2067,7 @@
                             aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne"
                           >
-                            Accordion Item #1
+                            Processor
                           </button>
                         </h2>
                         <div
@@ -910,7 +2091,7 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo"
                           >
-                            Accordion Item #2
+                            Display
                           </button>
                         </h2>
                         <div
@@ -934,13 +2115,253 @@
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree"
                           >
-                            Accordion Item #3
+                            Storage & RAM
                           </button>
                         </h2>
                         <div
                           id="panelsStayOpen-collapseThree"
                           class="accordion-collapse collapse"
                           aria-labelledby="panelsStayOpen-headingThree"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFour"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour"
+                          >
+                            Camera
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFour"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFour"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingFive"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive"
+                          >
+                            Audio
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseFive"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingFive"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSix"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix"
+                          >
+                            Battery & Charging
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSix"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSix"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingSeven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven"
+                          >
+                            Cellular & Wireless
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseSeven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingSeven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEight"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight"
+                          >
+                            Size & Weight
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEight"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEight"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingNine"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseNine"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseNine"
+                          >
+                            Material
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseNine"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingNine"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTen"
+                          >
+                            Sensors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTen"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingEleven"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEleven"
+                          >
+                            Operating System
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseEleven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingEleven"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingTwelve"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwelve"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwelve"
+                          >
+                            Colors
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTwelve"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingTwelve"
+                        >
+                          <div class="accordion-body"></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2
+                          class="accordion-header"
+                          id="panelsStayOpen-headingThirteen"
+                        >
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThirteen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThirteen"
+                          >
+                            Price
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseThirteen"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-headingThirteen"
                         >
                           <div class="accordion-body"></div>
                         </div>

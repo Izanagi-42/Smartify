@@ -1,6 +1,24 @@
 body {
   background-color: black;
 }
+.nav-logo-container {
+  margin-left: 10px;
+}
+
+.nav-logo {
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+  margin-right: 10px;
+}
+.nav-link-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-link-style {
+  align-self: center;
+}
+
 .nav-font {
   font-family: "Abel", sans-serif;
   font-size: 20px;
@@ -8,6 +26,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .nav-items {
   margin-left: 130px;
 }
@@ -24,40 +43,43 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.top-sell-text {
+  background-color: rgba(13, 55, 119, 0.574);
+  border: none;
+  border-width: 2px;
+  border-radius: 60px;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cards-header-tagline {
+  font-family: League Spartan;
+}
+
+/* Phone Size */
 @media (max-width: 420px) {
+  .nav-logo-container {
+    margin-right: 0px;
+  }
   .cards-header-tagline {
-    font-family: League Spartan;
     font-size: 28px;
   }
   .top-sell-text {
-    background-color: rgba(13, 55, 119, 0.574);
-    border: none;
-    border-width: 2px;
-    border-radius: 60px;
-    width: 100%;
     max-width: 300px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
 }
+
+/* Desktop Size */
 @media (min-width: 421px) {
   .cards-header-tagline {
-    font-family: League Spartan;
     font-size: 45px;
   }
   .top-sell-text {
-    background-color: rgba(13, 55, 119, 0.574);
-    border: none;
-    border-width: 2px;
-    border-radius: 60px;
-    width: 100%;
     max-width: 500px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
 }
+
 hr {
   border: 2px solid white;
   width: 90%;
@@ -72,6 +94,7 @@ hr {
   align-self: center;
   padding-top: 30px;
 }
+
 .show-specs-button {
   border-width: 2px;
   border-radius: 60px;
@@ -81,11 +104,13 @@ hr {
   width: 125px;
   margin-top: -5px;
 }
+
 .phone-model {
   color: white;
   font-family: tilt warp;
   font-size: 20px;
 }
+
 .card-size {
   background-color: transparent;
   margin-left: auto;
@@ -101,11 +126,13 @@ hr {
   font-family: Roboto Mono;
   font-size: 13px;
 }
+
 .body-pad {
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 20px;
 }
+
 .footer-icons {
   border-radius: 120px;
 }
