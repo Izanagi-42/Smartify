@@ -16,7 +16,7 @@ body {
 .cards-header-tagline {
   display: block;
   font-family: "Abel", sans-serif;
-  font-size: 4.5vw;
+  font-size: 25px;
   font-weight: bold;
   color: white;
   margin-top: 10px;
@@ -26,7 +26,7 @@ body {
 }
 .cards-header-tagline {
   font-family: League Spartan;
-  font-size: 40px;
+  font-size: 3.5vw;
 }
 hr {
   border: 2px solid white;
@@ -39,11 +39,10 @@ hr {
   border: none;
   border-width: 2px;
   border-radius: 60px;
-  width: 100%;
-  height: auto;
-  max-width: 60vw;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  width: 320px;
+  height: 55px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .phone-image {
   height: auto;
@@ -71,15 +70,15 @@ hr {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: auto;
-  max-width: 280px;
+  width: 100%;
+  max-width: 300px;
   border-radius: 30px;
   border-width: 3px;
 }
 .phone-specs-text {
   color: white;
   font-family: Roboto Mono;
-  font-size: 12px;
+  font-size: 13px;
 }
 .body-pad {
   padding-left: 0px;
