@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Abel&family=League+Spartan:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Abel&family=League+Spartan:wght@400;700&family=Titillium+Web:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,7 +32,10 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+    <nav
+      class="navbar sticky-top navbar-expand-xl bg-black"
+      data-bs-theme="dark"
+    >
       <div class="container-fluid">
         <a class="navbar-brand nav-logo-container" href="#">
           <img src="/Photos/latter logo.jpg" class="nav-logo"
@@ -48,44 +51,21 @@
         >
           <i class="bi bi-list"></i>
         </button>
-        <div
-          class="collapse navbar-collapse nav-items"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-link-container">
-            <li class="nav-item nav-font nav-link-style">
-              <a class="nav-link active" aria-current="page" href="/home.html"
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item nav-font">
+              <a class="nav-link active" aria-current="page" href="home.html"
                 >Home</a
               >
             </li>
-            <li class="nav-item nav-font nav-link-style">
-              <a class="nav-link" href="#">Phones</a>
+            <li class="nav-item nav-font">
+              <a class="nav-link phone-link" href="phones.html">Phones</a>
             </li>
-            <li class="nav-item dropdown nav-font nav-link-style">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Tier List
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Budget Phones</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Mid Range Phones</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+            <li class="nav-item nav-font">
+              <a class="nav-link align-nav-item" href="tier.html">Tier List</a>
             </li>
-            <li class="nav-item nav-font nav-link-style">
-              <a class="nav-link">About Us</a>
+            <li class="nav-item nav-font">
+              <a class="nav-link align-nav-item" href="about.html">About Us</a>
             </li>
           </ul>
         </div>
@@ -133,8 +113,9 @@
       </button>
     </div>
     <center>
-      <span class="cards-header-tagline"
-        >Stay Connected, Stay Ahead:&nbsp; Find your Perfect Smartphone</span
+      <span class="cards-header-tagline">STAY CONNECTED, STAY AHEAD: </span>
+      <span class="cards-header-tagline-2"
+        >FIND YOUR PERFECT SMARTPHONE HERE</span
       >
       <hr />
       <div class="top-sell-text">
@@ -157,11 +138,11 @@
             </p>
             <button
               type="button"
-              class="btn btn-outline-primary"
+              class="btn btn-outline-primary button-style"
               data-bs-toggle="modal"
               data-bs-target="#pova4proModal"
             >
-              Learn more
+              Show Full Specs
             </button>
             <div
               class="modal fade"
@@ -545,16 +526,17 @@
             </p>
             <button
               type="button"
-              class="btn btn-outline-primary"
+              class="btn btn-outline-primary button-style"
               data-bs-toggle="modal"
               data-bs-target="#pocom5sModal"
             >
-              Learn more
+              Show Full Specs
             </button>
             <div
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
+              data-bs-theme="dark"
               id="pocom5sModal"
               tabindex="-1"
               aria-labelledby="pocom5sLabel"
@@ -564,7 +546,7 @@
                 class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
               >
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header border border-primary">
                     <h5 class="modal-title" id="pocom5sLabel">POCO M5s</h5>
                     <button
                       type="button"
@@ -573,7 +555,7 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body border border-primary">
                     <img
                       src="/Photos/poco-m5s-phone.png"
                       class="img-fluid"
@@ -916,16 +898,17 @@
             </p>
             <button
               type="button"
-              class="btn btn-outline-primary"
+              class="btn btn-outline-primary button-style"
               data-bs-toggle="modal"
               data-bs-target="#note12Modal"
             >
-              Learn more
+              Show Full Specs
             </button>
             <div
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
+              data-bs-theme="dark"
               id="note12Modal"
               tabindex="-1"
               aria-labelledby="note12Label"
@@ -935,7 +918,7 @@
                 class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
               >
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header border border-primary">
                     <h5 class="modal-title" id="note12Label">
                       Infinix Note 12 G96
                     </h5>
@@ -946,7 +929,7 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body border border-primary">
                     <img
                       src="/Photos/note-12-g96-phone.png"
                       class="img-fluid"
@@ -1289,16 +1272,17 @@
             </p>
             <button
               type="button"
-              class="btn btn-outline-primary"
+              class="btn btn-outline-primary button-style"
               data-bs-toggle="modal"
               data-bs-target="#pova4Modal"
             >
-              Learn more
+              Show Full Specs
             </button>
             <div
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
+              data-bs-theme="dark"
               id="pova4Modal"
               tabindex="-1"
               aria-labelledby="pova4Label"
@@ -1308,7 +1292,7 @@
                 class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
               >
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header border border-primary">
                     <h5 class="modal-title" id="pova4Label">Tecno Pova 4</h5>
                     <button
                       type="button"
@@ -1317,7 +1301,7 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body border border-primary">
                     <img
                       src="/Photos/pova-4-phone.png"
                       class="img-fluid"
@@ -1660,16 +1644,17 @@
             </p>
             <button
               type="button"
-              class="btn btn-outline-primary"
+              class="btn btn-outline-primary button-style"
               data-bs-toggle="modal"
               data-bs-target="#pocom5Modal"
             >
-              Learn more
+              Show Full Specs
             </button>
             <div
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
+              data-bs-theme="dark"
               id="pocom5Modal"
               tabindex="-1"
               aria-labelledby="pocom5Label"
@@ -1679,7 +1664,7 @@
                 class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
               >
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header border border-primary">
                     <h5 class="modal-title" id="pocom5Label">Poco M5</h5>
                     <button
                       type="button"
@@ -1688,7 +1673,7 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body border border-primary">
                     <img
                       src="/Photos/poco-m5-phone.png"
                       class="img-fluid"
@@ -2031,16 +2016,17 @@
             </p>
             <button
               type="button"
-              class="btn btn-outline-primary"
+              class="btn btn-outline-primary button-style"
               data-bs-toggle="modal"
               data-bs-target="#hot20sModal"
             >
-              Learn more
+              Show Full Specs
             </button>
             <div
               class="modal fade"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
+              data-bs-theme="dark"
               id="hot20sModal"
               tabindex="-1"
               aria-labelledby="hot20sLabel"
@@ -2050,7 +2036,7 @@
                 class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
               >
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header border border-primary">
                     <h5 class="modal-title" id="hot20sLabel">
                       Infinix Hot 20S
                     </h5>
@@ -2061,7 +2047,7 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body border border-primary">
                     <img
                       src="/Photos/hot-20s-phone.png"
                       class="img-fluid"
@@ -2398,7 +2384,7 @@
           <!-- Facebook -->
           <a
             class="btn btn-outline-light btn-floating m-1 footer-icons"
-            href="#!"
+            href="https://www.facebook.com/Izanagi.042"
             role="button"
             ><i class="bi-facebook"></i
           ></a>
@@ -2406,7 +2392,7 @@
           <!-- Twitter -->
           <a
             class="btn btn-outline-light btn-floating m-1 footer-icons"
-            href="#!"
+            href="https://twitter.com/niko_niko_clz"
             role="button"
             ><i class="bi-twitter"></i
           ></a>
@@ -2430,7 +2416,7 @@
           <!-- Linkedin -->
           <a
             class="btn btn-outline-light btn-floating m-1 footer-icons"
-            href="#!"
+            href="https://www.linkedin.com/in/nikolaicalizar/"
             role="button"
             ><i class="bi-linkedin"></i
           ></a>
@@ -2438,7 +2424,7 @@
           <!-- Github -->
           <a
             class="btn btn-outline-light btn-floating m-1 footer-icons"
-            href="#!"
+            href="https://github.com/Izanagi-42"
             role="button"
             ><i class="bi-github"></i
           ></a>

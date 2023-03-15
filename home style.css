@@ -1,22 +1,20 @@
 body {
   background-color: black;
 }
+.phone-link:hover {
+  cursor: pointer;
+}
+.tier-style:hover {
+  cursor: pointer;
+}
 .nav-logo-container {
   margin-left: 10px;
 }
 
 .nav-logo {
-  height: auto;
-  width: 100%;
+  width: auto;
   max-width: 150px;
   margin-right: 10px;
-}
-.nav-link-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-.nav-link-style {
-  align-self: center;
 }
 
 .nav-font {
@@ -27,12 +25,13 @@ body {
   margin-right: 10px;
 }
 
-.nav-items {
-  margin-left: 130px;
+.nav-items-dropdown {
+  margin-left: 220px;
 }
 
 .cards-header-text,
-.cards-header-tagline {
+.cards-header-tagline,
+.cards-header-tagline-2 {
   display: block;
   font-family: "Abel", sans-serif;
   font-size: 25px;
@@ -53,8 +52,9 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.cards-header-tagline {
-  font-family: League Spartan;
+.cards-header-tagline,
+.cards-header-tagline-2 {
+  font-family: Titillium Web;
 }
 
 hr {
@@ -83,6 +83,7 @@ hr {
 
 .phone-model {
   color: white;
+  text-shadow: 0px 0px 12px rgb(89, 96, 220);
   font-family: tilt warp;
 }
 
@@ -92,15 +93,19 @@ hr {
   margin-right: auto;
   height: auto;
   width: 100%;
-  max-width: 300px;
-  border-radius: 30px;
+  max-width: 260px;
+  border-radius: 40px;
   border-width: 3px;
 }
 .phone-specs-text {
   color: white;
   font-family: Roboto Mono;
 }
-
+.button-style {
+  border-width: 3px;
+  border-radius: 30px;
+  color: white;
+}
 .accordion-button:not(.collapsed) {
   color: white;
   background-color: black;
@@ -122,7 +127,14 @@ hr {
     margin-right: 0px;
   }
   .cards-header-tagline {
-    font-size: 28px;
+    margin-bottom: -1px;
+    padding-bottom: 0px;
+    font-size: 1.3em;
+  }
+  .cards-header-tagline-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 1.1em;
   }
   .top-sell-text {
     max-width: 300px;
@@ -140,8 +152,13 @@ hr {
 
 /* Desktop Size */
 @media (min-width: 421px) {
-  .cards-header-tagline {
-    font-size: 45px;
+  .cards-header-tagline,
+  .cards-header-tagline-2 {
+    display: inline;
+    font-size: 37px;
+  }
+  hr {
+    margin-top: 5px;
   }
   .top-sell-text {
     max-width: 500px;
