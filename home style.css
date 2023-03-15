@@ -57,29 +57,6 @@ body {
   font-family: League Spartan;
 }
 
-/* Phone Size */
-@media (max-width: 420px) {
-  .nav-logo-container {
-    margin-right: 0px;
-  }
-  .cards-header-tagline {
-    font-size: 28px;
-  }
-  .top-sell-text {
-    max-width: 300px;
-  }
-}
-
-/* Desktop Size */
-@media (min-width: 421px) {
-  .cards-header-tagline {
-    font-size: 45px;
-  }
-  .top-sell-text {
-    max-width: 500px;
-  }
-}
-
 hr {
   border: 2px solid white;
   width: 90%;
@@ -90,7 +67,6 @@ hr {
 .phone-image {
   height: auto;
   width: 100%;
-  max-width: 105px;
   align-self: center;
   padding-top: 30px;
 }
@@ -108,7 +84,6 @@ hr {
 .phone-model {
   color: white;
   font-family: tilt warp;
-  font-size: 20px;
 }
 
 .card-size {
@@ -124,7 +99,6 @@ hr {
 .phone-specs-text {
   color: white;
   font-family: Roboto Mono;
-  font-size: 13px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -140,4 +114,45 @@ hr {
 
 .footer-icons {
   border-radius: 120px;
+}
+
+/* Phone Size */
+@media (max-width: 420px) {
+  .nav-logo-container {
+    margin-right: 0px;
+  }
+  .cards-header-tagline {
+    font-size: 28px;
+  }
+  .top-sell-text {
+    max-width: 300px;
+  }
+  .phone-image {
+    max-width: 90px;
+  }
+  .phone-model {
+    font-size: 16px;
+  }
+  .phone-specs-text {
+    font-size: 9px;
+  }
+}
+
+/* Desktop Size */
+@media (min-width: 421px) {
+  .cards-header-tagline {
+    font-size: 45px;
+  }
+  .top-sell-text {
+    max-width: 500px;
+  }
+  .phone-image {
+    max-width: 105px;
+  }
+  .phone-model {
+    font-size: 20px;
+  }
+  .phone-specs-text {
+    font-size: 13px;
+  }
 }
