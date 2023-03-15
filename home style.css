@@ -1,6 +1,7 @@
 body {
   background-color: black;
 }
+
 .phone-link:hover {
   cursor: pointer;
 }
@@ -10,7 +11,6 @@ body {
 .nav-logo-container {
   margin-left: 10px;
 }
-
 .nav-logo {
   width: auto;
   max-width: 150px;
@@ -50,7 +50,9 @@ body {
   width: 100%;
   height: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 18px rgb(110, 190, 217);
+  box-shadow: 0px 0px 20px rgb(83, 93, 229);
 }
 .cards-header-tagline,
 .cards-header-tagline-2 {
@@ -123,8 +125,9 @@ hr {
 
 /* Phone Size */
 @media (max-width: 420px) {
-  .nav-logo-container {
-    margin-right: 0px;
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .cards-header-tagline {
     margin-bottom: -1px;
