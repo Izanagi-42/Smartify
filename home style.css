@@ -27,6 +27,9 @@ body {
 .nav-items-dropdown {
   margin-left: 220px;
 }
+.carousel-style {
+  margin-top: 56px;
+}
 .cards-header-text,
 .cards-header-tagline,
 .cards-header-tagline-2 {
@@ -127,9 +130,6 @@ hr {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  .carousel-style {
-    margin-top: 54px;
-  }
   .cards-header-tagline {
     margin-top: 0px;
     margin-bottom: -1px;
@@ -161,7 +161,7 @@ hr {
   .cards-header-tagline,
   .cards-header-tagline-2 {
     display: inline;
-    font-size: 37px;
+    font-size: 1.5em;
   }
   hr {
     margin-top: 5px;
