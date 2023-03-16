@@ -1,7 +1,6 @@
 body {
   background-color: black;
 }
-
 .phone-link:hover {
   cursor: pointer;
 }
@@ -28,7 +27,6 @@ body {
 .nav-items-dropdown {
   margin-left: 220px;
 }
-
 .cards-header-text,
 .cards-header-tagline,
 .cards-header-tagline-2 {
@@ -129,8 +127,13 @@ hr {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  .carousel-style {
+    margin-top: 54px;
+  }
   .cards-header-tagline {
+    margin-top: 0px;
     margin-bottom: -1px;
+    padding-top: 0px;
     padding-bottom: 0px;
     font-size: 1.3em;
   }
