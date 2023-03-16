@@ -10,6 +10,7 @@
   height: auto;
   width: 100%;
   max-width: 70px;
+  margin-top: 10px;
   margin-left: 16px;
   margin-right: 16px;
   border-radius: 20px;
@@ -39,7 +40,7 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: #777;
+  background-color: #000000;
 }
 
 @media (max-width: 420px) {

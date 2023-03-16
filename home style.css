@@ -8,7 +8,7 @@ body {
   cursor: pointer;
 }
 .navbar {
-  padding: 1px;
+  padding: 8px;
 }
 .nav-logo-container {
   margin-left: 10px;
@@ -29,24 +29,16 @@ body {
 .nav-items-dropdown {
   margin-left: 220px;
 }
-.brands-container {
-  border: solid;
-  border-color: rgb(75, 75, 255);
-  border-width: 2.5px;
-  height: 100px;
-}
-.brand {
+.search-icon {
   height: auto;
   width: 100%;
-  max-width: 100px;
-  margin-top: 10px;
-}
-.brand-frame {
-  height: 100px;
+  max-width: 35px;
+  margin-left: 20px;
 }
 .carousel-style {
   margin-top: 56px;
 }
+
 .cards-header-text,
 .cards-header-tagline,
 .cards-header-tagline-2 {
@@ -73,8 +65,8 @@ body {
   border-radius: 60px;
   width: 100%;
   height: auto;
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   padding-top: 2px;
   padding-bottom: 2px;
   text-shadow: 0px 0px 18px rgb(110, 190, 217);
@@ -92,17 +84,8 @@ hr {
   height: auto;
   width: 100%;
   align-self: center;
-  padding-top: 30px;
-}
-
-.show-specs-button {
-  border-width: 2px;
-  border-radius: 60px;
-  font-family: ubuntu;
-  font-size: 13px;
-  height: auto;
-  width: 125px;
-  margin-top: -5px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px rgb(23, 140, 195);
 }
 
 .phone-model {
@@ -147,15 +130,15 @@ hr {
 }
 
 /* Desktop Size */
-@media (min-width: 421px) {
+@media (min-width: 769px) {
   .navlinks {
     display: flex;
   }
   .navlink-container {
-    margin-left: 350px;
+    margin-left: 23.3vw;
   }
   .nav-font {
-    font-size: 25px;
+    font-size: 22px;
   }
   .cards-header-tagline,
   .cards-header-tagline-2 {
@@ -185,8 +168,8 @@ hr {
   }
 }
 
-/* Phone Size */
-@media (max-width: 420px) {
+/* Tablet Size */
+@media (min-width: 426px) and (max-width: 768px) {
   .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -211,7 +194,7 @@ hr {
   .cards-header-tagline-2 {
     margin-top: 0px;
     padding-top: 0px;
-    font-size: 1.1em;
+    font-size: 1.2rem;
   }
   .cards-header-text {
     margin-bottom: 0px;
@@ -228,5 +211,56 @@ hr {
   }
   .phone-specs-text {
     font-size: 9px;
+  }
+}
+
+/* Phone Size */
+@media (max-width: 425px) {
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .navlinks {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+  }
+  .nav-font {
+    font-size: 20px;
+  }
+  .cards-header-tagline {
+    margin-top: 0px;
+    margin-bottom: -1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1.3em;
+  }
+  .cards-header-tagline-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 1em;
+  }
+  .cards-header-text {
+    font-size: 20px;
+    margin: 0%;
+    padding: 12px;
+  }
+  .top-sell-text {
+    max-width: 260px;
+  }
+  .phone-image {
+    max-width: 90px;
+  }
+  .phone-model {
+    font-size: 16px;
+  }
+  .phone-specs-text {
+    font-size: 9px;
+  }
+  .button-style {
+    height: auto;
+    width: 120px;
   }
 }
