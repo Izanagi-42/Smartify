@@ -3,7 +3,7 @@
   border-color: rgb(44, 122, 248);
   border-width: 2.5px;
   border-radius: 8px;
-  height: 100px;
+  height: 98px;
   overflow: auto;
 }
 .brand {
@@ -43,6 +43,9 @@ div.scrollmenu a:hover {
 }
 
 @media (max-width: 420px) {
+  .brands-container {
+    height: 85px;
+  }
   .brand {
     max-width: 60px;
     border-radius: 15px;
