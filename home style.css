@@ -27,6 +27,12 @@ body {
 .nav-items-dropdown {
   margin-left: 220px;
 }
+.brands-container {
+  border: solid;
+  border-color: rgb(75, 75, 255);
+  border-width: 2.5px;
+  height: 70px;
+}
 .carousel-style {
   margin-top: 56px;
 }
@@ -121,6 +127,7 @@ hr {
 }
 
 .footer-icons {
+  margin: 0px;
   border-radius: 120px;
 }
 
@@ -143,7 +150,8 @@ hr {
     font-size: 1.1em;
   }
   .top-sell-text {
-    max-width: 300px;
+    max-width: 260px;
+    height: 55px;
   }
   .phone-image {
     max-width: 90px;
