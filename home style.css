@@ -31,7 +31,16 @@ body {
   border: solid;
   border-color: rgb(75, 75, 255);
   border-width: 2.5px;
-  height: 70px;
+  height: 100px;
+}
+.brand {
+  height: auto;
+  width: 100%;
+  max-width: 100px;
+  margin-top: 10px;
+}
+.brand-frame {
+  height: 100px;
 }
 .carousel-style {
   margin-top: 56px;
