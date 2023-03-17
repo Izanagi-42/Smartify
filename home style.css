@@ -120,6 +120,14 @@ hr {
   font: 20px;
 }
 
+.spec-header-align {
+  text-align: left;
+}
+.spec-card-size {
+  background-color: black;
+  border: solid 1px rgb(33, 134, 242);
+}
+
 .body-pad {
   padding-left: 0px;
   padding-right: 0px;
@@ -172,6 +180,9 @@ hr {
   .button-style {
     max-width: 150px;
     font-size: 18px;
+  }
+  .spec-card-size {
+    width: 25rem;
   }
 }
 
@@ -270,5 +281,8 @@ hr {
   .button-style {
     max-width: 120px;
     font-size: 12px;
+  }
+  .spec-card-size {
+    width: 19.5rem;
   }
 }
