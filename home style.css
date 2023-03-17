@@ -109,6 +109,7 @@ hr {
   font-family: Roboto Mono;
 }
 .button-style {
+  font-family: League Spartan;
   border-width: 3px;
   border-radius: 30px;
   color: white;
@@ -145,7 +146,7 @@ hr {
     display: flex;
   }
   .navlink-container {
-    margin-left: 23.3vw;
+    margin-left: 20.5vw;
   }
   .nav-font {
     font-size: 22px;
@@ -153,7 +154,7 @@ hr {
   .cards-header-tagline,
   .cards-header-tagline-2 {
     display: inline;
-    font-size: 2.6em;
+    font-size: 2.45em;
   }
   hr {
     margin-top: 5px;
@@ -163,6 +164,7 @@ hr {
   }
   .cards-header-text {
     font-size: 32px;
+    margin: 0%;
   }
   .card-size {
     max-width: 320px;
@@ -207,7 +209,7 @@ hr {
     margin-bottom: -1px;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .cards-header-tagline-2 {
     margin-top: 0px;
@@ -263,7 +265,7 @@ hr {
   .cards-header-text {
     font-size: 20px;
     margin: 0%;
-    padding: 12px;
+    padding: 10px;
   }
   .top-sell-text {
     max-width: 260px;
@@ -279,8 +281,9 @@ hr {
     margin-bottom: 11px;
   }
   .button-style {
+    margin-top: 5px;
     max-width: 120px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .spec-card-size {
     width: 19.5rem;
