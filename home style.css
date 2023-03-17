@@ -112,10 +112,12 @@ hr {
   border-width: 3px;
   border-radius: 30px;
   color: white;
+  height: auto;
+  width: 100%;
 }
-.accordion-button:not(.collapsed) {
+.phone-specs-header {
   color: white;
-  background-color: black;
+  font: 20px;
 }
 
 .body-pad {
@@ -161,10 +163,15 @@ hr {
     max-width: 105px;
   }
   .phone-model {
-    font-size: 20px;
+    margin-top: 6px;
+    font-size: 24px;
   }
   .phone-specs-text {
-    font-size: 13px;
+    font-size: 15px;
+  }
+  .button-style {
+    max-width: 150px;
+    font-size: 18px;
   }
 }
 
@@ -258,9 +265,10 @@ hr {
   }
   .phone-specs-text {
     font-size: 9px;
+    margin-bottom: 11px;
   }
   .button-style {
-    height: auto;
-    width: 120px;
+    max-width: 120px;
+    font-size: 12px;
   }
 }
