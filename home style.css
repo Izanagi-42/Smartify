@@ -19,11 +19,23 @@ body {
   margin-right: 10px;
 }
 
-.nav-font {
+.nav-font-1,
+.nav-font-2,
+.nav-font-3,
+.nav-font-4 {
+  font-size: 22px;
   font-family: "Abel", sans-serif;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
+  transition: transform 0.1s;
+}
+
+.nav-font-1:hover,
+.nav-font-2:hover,
+.nav-font-3:hover,
+.nav-font-4:hover {
+  transform: scale(1.25);
 }
 
 .nav-items-dropdown {
@@ -123,6 +135,7 @@ hr {
 
 .spec-header-align {
   text-align: left;
+  box-shadow: 0px 0px 10px rgb(60, 181, 233);
 }
 .spec-card-size {
   background-color: black;
