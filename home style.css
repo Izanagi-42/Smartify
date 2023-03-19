@@ -249,12 +249,15 @@ hr {
   }
   .phone-specs-text {
     font-size: 11px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
   .button-style {
-    margin-top: 5px;
+    margin-top: 7px;
     max-width: 130px;
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .spec-card-size {
+    width: 19.5rem;
   }
 }
 
