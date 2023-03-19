@@ -297,6 +297,9 @@ hr {
   .top-sell-text {
     max-width: 260px;
   }
+  .card-size {
+    max-width: 50vw;
+  }
   .phone-image {
     max-width: 90px;
   }
@@ -320,10 +323,11 @@ hr {
     height: auto;
   }
   .spec-card-size {
-    width: 19.5rem;
+    width: 18.5rem;
   }
   .footer-icons {
-    margin: -2px;
-    border-radius: 120px;
+    margin: 0px;
+    border: solid 1px white;
+    border-radius: 22.5px;
   }
 }
