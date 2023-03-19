@@ -158,7 +158,7 @@ hr {
 }
 
 /* Desktop Size */
-@media (min-width: 769px) {
+@media (min-width: 1001px) {
   .navlinks {
     display: flex;
   }
@@ -206,7 +206,7 @@ hr {
 }
 
 /* Tablet Size */
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 1000px) {
   .navbar {
     padding-top: 10px;
     padding-bottom: 10px;
