@@ -50,6 +50,10 @@ body {
 .carousel-style {
   margin-top: 56px;
 }
+.carousel-inner {
+  width: 100%;
+  max-width: 100%;
+}
 
 .cards-header-text,
 .cards-header-tagline,
@@ -159,7 +163,7 @@ hr {
     display: flex;
   }
   .navlink-container {
-    margin-left: 20.5vw;
+    margin-left: 25%;
   }
   .nav-font {
     font-size: 22px;
@@ -204,8 +208,8 @@ hr {
 /* Tablet Size */
 @media (min-width: 426px) and (max-width: 768px) {
   .navbar {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .navlinks {
     display: inline;
@@ -222,28 +226,35 @@ hr {
     margin-bottom: -1px;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 1.2em;
+    font-size: 1.8em;
   }
   .cards-header-tagline-2 {
     margin-top: 0px;
     padding-top: 0px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .cards-header-text {
-    margin-bottom: 0px;
+    font-size: 25px;
+    margin: 0%;
   }
   .top-sell-text {
-    max-width: 260px;
+    max-width: 290px;
     height: 55px;
   }
   .phone-image {
     max-width: 90px;
   }
   .phone-model {
-    font-size: 16px;
+    font-size: 20px;
   }
   .phone-specs-text {
-    font-size: 9px;
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  .button-style {
+    margin-top: 5px;
+    max-width: 130px;
+    font-size: 14px;
   }
 }
 
