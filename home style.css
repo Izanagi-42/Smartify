@@ -141,6 +141,12 @@ hr {
   text-align: left;
   box-shadow: 0px 0px 10px rgb(60, 181, 233);
 }
+.modal-img {
+  box-shadow: 0px 0px 25px rgb(60, 181, 233);
+  max-width: 140px;
+  padding: 0%;
+  margin-top: 10px;
+}
 .spec-card-size {
   background-color: black;
   border: solid 1px rgb(33, 134, 242);
@@ -321,9 +327,13 @@ hr {
     max-width: 355px;
     width: 100%;
     height: auto;
+    display: flex;
+  }
+  .modal-img {
+    max-width: 120px;
   }
   .spec-card-size {
-    width: 18.5rem;
+    width: 19.5rem;
   }
   .footer-icons {
     width: 20vw;
