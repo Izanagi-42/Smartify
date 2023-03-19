@@ -326,8 +326,6 @@ hr {
     width: 18.5rem;
   }
   .footer-icons {
-    margin: 0px;
-    border: solid 1px white;
-    border-radius: 22.5px;
+    width: 20vw;
   }
 }
