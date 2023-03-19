@@ -327,7 +327,6 @@ hr {
     max-width: 355px;
     width: 100%;
     height: auto;
-    display: flex;
   }
   .modal-img {
     max-width: 120px;
