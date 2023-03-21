@@ -1,0 +1,202 @@
+.about-bg-container {
+  background-image: url("About Us Photos/About Background.jpg");
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about-text-container {
+  color: white;
+  background-color: rgba(29, 61, 99, 0.53);
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 1000px;
+  border-radius: 20px;
+}
+.about-text-container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-text-container p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.data-card-container {
+  background-color: rgb(7, 3, 39);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.who-are-we {
+  background-color: rgb(10, 20, 62);
+  border: solid;
+  border-radius: 100px;
+  box-shadow: 0 0 20px 0 rgb(9, 68, 219);
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.data-card-style-1,
+.data-card-style-2 {
+  display: inline-block;
+  background-color: rgb(4, 4, 42);
+  border: solid 4px rgb(255, 255, 255);
+  box-shadow: 0 0 20px 0 rgb(9, 68, 219);
+}
+.person-img {
+  border: solid 2px blue;
+  max-width: 190px;
+  box-shadow: 0 0 20px 0 rgb(9, 68, 219);
+}
+
+.name {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.section-header {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+}
+.school-section {
+  color: white;
+  font-weight: 700;
+}
+.quote-1,
+.quote-2 {
+  margin-top: 22px;
+  color: white;
+  font-weight: 700;
+}
+@media (min-width: 1001px) {
+  .about-bg-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .about-text-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1000px;
+    border-radius: 20px;
+  }
+  .about-text-container h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .about-text-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .data-card-style-1 {
+    width: 23rem;
+    height: 31rem;
+    margin-right: 50px;
+  }
+  .data-card-style-2 {
+    width: 23rem;
+    height: 31rem;
+    margin-left: 50px;
+  }
+  .data-card-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .who-are-we {
+    border-radius: 100px;
+    width: 600px;
+    padding: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .person-img {
+    margin-top: 20px;
+    height: 170px;
+    max-width: 180px;
+    border-radius: 50%;
+  }
+
+  .name {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .section-header {
+    font-size: 17px;
+  }
+  .school-section {
+    font-size: 17px;
+  }
+  .quote-1,
+  .quote-2 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .about-bg-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .about-text-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 85vw;
+    border-radius: 20px;
+  }
+  .about-text-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .about-text-container p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .data-card-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .data-card-style-1,
+  .data-card-style-2 {
+    width: 16em;
+    height: auto;
+    display: block;
+  }
+  .data-card-style-2 {
+    margin-top: 3vh;
+  }
+  .who-are-we {
+    border-radius: 100px;
+    width: 65vw;
+    padding: 1em;
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+  }
+  .person-img {
+    margin-top: 20px;
+    height: auto;
+    max-width: 29vw;
+    border-radius: 50%;
+  }
+  .name {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  .section-header {
+    font-size: 1em;
+  }
+  .school-section {
+    font-size: 1em;
+  }
+  .quote-1,
+  .quote-2 {
+    font-size: 0.7em;
+  }
+}
