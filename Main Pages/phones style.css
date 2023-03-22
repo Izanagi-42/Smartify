@@ -1,0 +1,113 @@
+.brands-container {
+  border: solid;
+  border-color: rgb(44, 122, 248);
+  border-width: 2.5px;
+  border-radius: 8px;
+  height: 98px;
+  overflow: auto;
+}
+.brand {
+  height: auto;
+  width: 100%;
+  max-width: 65px;
+  margin-top: 15px;
+  margin-left: 11.8px;
+  margin-right: 11.8px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px white;
+  transition: transform 0.2s;
+}
+.brand:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.samsung {
+  border: solid 1px rgb(255, 255, 255);
+}
+.brand-frame {
+  height: 100px;
+}
+div.scrollmenu {
+  background-color: #000000;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #000000;
+}
+.phones-page-photo-1,
+.phones-page-photo-2,
+.phones-page-photo-3,
+.phones-page-photo-4,
+.phones-page-photo-5,
+.phones-page-photo-6,
+.phones-page-photo-7,
+.phones-page-photo-8 {
+  height: 390px;
+  width: 100%;
+  max-width: 605px;
+  display: inline-block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  box-shadow: 0px 0px 45px rgb(32, 9, 124);
+}
+.phones-page-photo-2,
+.phones-page-photo-3,
+.phones-page-photo-6,
+.phones-page-photo-7 {
+  max-width: 740px;
+}
+
+@media (max-width: 425px) {
+  .brands-container {
+    height: 85px;
+  }
+  .brand {
+    max-width: 60px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 11px;
+  }
+}
+@media (min-width: 350px) and (max-width: 425px) {
+  .phones-page-photo-1,
+  .phones-page-photo-4,
+  .phones-page-photo-5,
+  .phones-page-photo-8 {
+    height: 120px;
+    max-width: 45vw;
+  }
+  .phones-page-photo-2,
+  .phones-page-photo-3,
+  .phones-page-photo-6,
+  .phones-page-photo-7 {
+    height: 120px;
+    max-width: 53.5vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 349px) {
+  .phones-page-photo-1,
+  .phones-page-photo-4,
+  .phones-page-photo-5,
+  .phones-page-photo-8 {
+    height: 100px;
+    max-width: 45vw;
+  }
+  .phones-page-photo-2,
+  .phones-page-photo-3,
+  .phones-page-photo-6,
+  .phones-page-photo-7 {
+    height: 100px;
+    max-width: 53.5vw;
+  }
+}

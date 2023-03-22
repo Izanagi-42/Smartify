@@ -31,3 +31,43 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+@media (min-width: 400px) and (max-width: 425px) {
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    max-height: 240px;
+    max-width: 425px;
+    margin-top: 5px;
+  }
+}
+@media (min-width: 375px) and (max-width: 399px) {
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    max-height: 220px;
+    max-width: 399px;
+    margin-top: 5px;
+  }
+}
+@media (min-width: 350px) and (max-width: 374px) {
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    max-height: 200px;
+    max-width: 374px;
+    margin-top: 5px;
+  }
+}
+@media (min-width: 320px) and (max-width: 349px) {
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    max-height: 180px;
+    max-width: 349px;
+    margin-top: 5px;
+  }
+}
