@@ -23,6 +23,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+.s-tier {
+  height: auto;
+  width: 100%;
+  display: inline;
+}
 div.scrollmenu {
   background-color: #000000;
   overflow: auto;
@@ -84,21 +89,16 @@ div.scrollmenu a:hover {
     height: 300px;
   }
   .s-tier {
-    height: auto;
-    width: 100%;
     max-width: 10vw;
-    display: inline;
   }
 }
-@media (min-width: 320px) and (max-width: 450px) {
+/* Mobile View */
+@media (min-width: 320px) and (max-width: 425px) {
   .tier-photo {
     max-width: 54vw;
     margin-top: 4vh;
     margin-left: 23.1vw;
     margin-right: 23.1vw;
-  }
-  .tier-rank-photo {
-    max-width: 28vw;
   }
   .tier-button-1,
   .tier-button-2,
@@ -136,10 +136,52 @@ div.scrollmenu a:hover {
     max-width: 100vw;
     height: 300px;
   }
+}
+@media (min-width: 416px) and (max-width: 425px) {
+  .tier-rank-photo {
+    max-width: 41vw;
+  }
   .s-tier {
-    height: auto;
-    width: 100%;
-    max-width: 22vw;
-    display: inline;
+    max-width: 39vw;
+  }
+}
+@media (min-width: 401px) and (max-width: 415px) {
+  .tier-rank-photo {
+    max-width: 42.5vw;
+  }
+  .s-tier {
+    max-width: 40.5vw;
+  }
+}
+@media (min-width: 386px) and (max-width: 400px) {
+  .tier-rank-photo {
+    max-width: 44vw;
+  }
+  .s-tier {
+    max-width: 42vw;
+  }
+}
+@media (min-width: 371px) and (max-width: 385px) {
+  .tier-rank-photo {
+    max-width: 45.5vw;
+  }
+  .s-tier {
+    max-width: 43.5vw;
+  }
+}
+@media (min-width: 361px) and (max-width: 370px) {
+  .tier-rank-photo {
+    max-width: 47vw;
+  }
+  .s-tier {
+    max-width: 45vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 360px) {
+  .tier-rank-photo {
+    max-width: 48.5vw;
+  }
+  .s-tier {
+    max-width: 46.5vw;
   }
 }
