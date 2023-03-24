@@ -54,7 +54,7 @@ div.scrollmenu a:hover {
 .phones-page-photo-8 {
   height: 390px;
   width: 100%;
-  max-width: 605px;
+  max-width: 615px;
   display: inline-block;
   margin-top: 2px;
   margin-bottom: 2px;
@@ -64,7 +64,7 @@ div.scrollmenu a:hover {
 .phones-page-photo-3,
 .phones-page-photo-6,
 .phones-page-photo-7 {
-  max-width: 740px;
+  max-width: 730px;
 }
 
 @media (max-width: 425px) {

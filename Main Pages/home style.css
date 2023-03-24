@@ -62,11 +62,14 @@ body {
   font-family: "Abel", sans-serif;
   font-size: 25px;
   font-weight: bold;
-  color: white;
+  color: rgb(51, 62, 210);
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.cards-header-text {
+  color: white;
 }
 
 .cards-header-tagline,
@@ -139,6 +142,8 @@ hr {
 
 .spec-header-align {
   text-align: left;
+  font-weight: bold;
+  font-size: 20px;
   box-shadow: 0px 0px 10px rgb(60, 181, 233);
 }
 .modal-img {
@@ -268,7 +273,7 @@ hr {
 }
 
 /* Phone Size */
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -331,10 +336,20 @@ hr {
   .modal-img {
     max-width: 120px;
   }
-  .spec-card-size {
-    width: 19.5rem;
+  .spec-header-align {
+    font-size: 20px;
   }
   .footer-icons {
     width: 20vw;
+  }
+}
+@media (min-width: 400px) and (max-width: 425px) {
+  .spec-card-size {
+    max-width: 405px;
+  }
+}
+@media (min-width: 375px) and (max-width: 399px) {
+  .spec-card-size {
+    max-width: 379px;
   }
 }
